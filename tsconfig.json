@@ -1,5 +1,9 @@
 {
-  "compilerOptions": {
-    "target": "esnext"
-  }
+    "compilerOptions": {
+        "allowJs": false,
+        "noEmit": true
+    },
+    "include": [
+        "./src/"
+    ],
 }
